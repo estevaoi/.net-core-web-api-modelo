@@ -1,0 +1,23 @@
+﻿{
+  "$schema": "http://json.schemastore.org/launchsettings.json",
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:20624",
+      "sslPort": 0
+    }
+  },
+  "profiles": {
+    "WebApiModelo.api": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "applicationUrl": "http://localhost:5000",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "SQLCONNSTR_CONNECTIONSTRING": "Server=localhost;Database=NOMEBANCO;User Id=NOMEUSUARIO;Password=SENHAUSUARIO;MultipleActiveResultSets=true"
+      }
+    }
+  }
+}
